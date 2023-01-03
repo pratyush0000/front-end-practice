@@ -1,0 +1,40 @@
+.header{
+    height: 55px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.left-section{
+    background-color: aqua;
+    width: 170px;
+    display: flex;
+    align-items: center;
+}
+
+.menu{
+    height: 23px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.youtube-logo{
+    height: 23px;
+}
+
+.middle-section{
+    background-color: pink;
+    flex: 1;
+    max-width: 600px;
+    margin-left: 70px;
+    margin-right: 40px;
+}
+
+.right-section{
+    background-color: brown;
+    width: 200px;
+}
+
+.search-box{
+    display: block;
+}
