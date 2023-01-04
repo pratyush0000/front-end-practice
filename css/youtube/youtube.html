@@ -15,7 +15,7 @@
 
     <body>
         
-        <div class="header">
+        <header class="header">
 
 
 
@@ -30,28 +30,50 @@
                 <input class="search-box" type="text" placeholder="Search">
                 <button class="search-button">
                     <img class="search-button-image" src="icons/search-button.svg">
+                    <div class="tooltip">
+                        Search
+                    </div>
                 </button>
                 <button class="voice-search-button">
                     <img class="voice-search-button-image" src="icons/voice-search-button.svg">
+                    <div class="tooltip">
+                        Search with voice
+                    </div>
                 </button>
             </div>
             
             
             
             <div class="right-section">
-                <img class="upload-image" src="icons/upload.svg">
-                <img class="youtube-apps-image" src="icons/youtube-apps.svg">
+
+                <div class="upload-container">
+                    <img class="upload-image" src="icons/upload.svg">
+                    <div class="tooltip">
+                        Create
+                    </div>
+                </div>
+                <div class="youtube-apps-container">
+                    <img class="youtube-apps-image" src="icons/youtube-apps.svg">
+                    <div class="tooltip">
+                        YouTube Apps
+                    </div>
+                </div>
+
                 <!--to put the count of notifications-->
                 <div class="notifications-container">
                     <img class="notifications-image" src="icons/notifications.svg">
                     <div class="notifications-count">5</div>
+                    <div class="tooltip">
+                        Notifications
+                    </div>
                 </div>
+
                 <img class="my-profile-image" src="thumbnails/pratyushkamalC.jpeg">
             </div>
             
-        </div>
+        </header>
 
-        <div class="sidebar">
+        <nav class="sidebar">
             <div class="sidebar-link">
                 <img src="icons/home.svg">
                 <div>Home</div>
@@ -76,158 +98,160 @@
                 <img src="icons/library.svg">
                 <div>Library</div>
             </div>
-        </div>
-
-        <div class="video-grid">
-            <div class="video-preview">
-                <div class="thumbnail-row">
-                    <img class="thumbnail" src="thumbnails/pratyushkamal.jpeg">
-                    <div class="video-time">0:12</div>
-                </div>
-    
-                <div class="video-info-grid">
-                    <div class="channel-pfp">
-                        <img class="pfp" src="thumbnails/pratyushkamalC.jpeg">
+        </nav>
+        
+        <main>
+            <section class="video-grid">
+                <div class="video-preview">
+                    <div class="thumbnail-row">
+                        <img class="thumbnail" src="thumbnails/pratyushkamal.jpeg">
+                        <div class="video-time">0:12</div>
                     </div>
-    
-                    <div class="video-info">
-                        <p class="video-title">
-                            The Trash || Joke #1
-                        </p>
-                        <p class="video-author">
-                            Pratyush Kamal
-                        </p>
-                        <p class="video-stats">
-                            565 views &#183; 2 years ago
-                        </p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="video-preview">
-                <div class="thumbnail-row">
-                    <img class="thumbnail" src="thumbnails/notyourtype.jpeg">
-                    <div class="video-time">8:02</div>
-                </div>
-    
-                <div class="video-info-grid">
-                    <div class="channel-pfp">
-                        <img class="pfp" src="thumbnails/notyourtypeC.jpeg">
-                    </div>
-    
-                    <div class="video-info">
-                        <p class="video-title">
-                            Indian Tv Shows | Ft. Crime Petrol
-                        </p>
-                        <p class="video-author">
-                            NOT YOUR TYPE
-                        </p>
-                        <p class="video-stats">
-                            6.3M views &#183; 6 months ago
-                        </p>
+        
+                    <div class="video-info-grid">
+                        <div class="channel-pfp">
+                            <img class="pfp" src="thumbnails/pratyushkamalC.jpeg">
+                        </div>
+        
+                        <div class="video-info">
+                            <p class="video-title">
+                                The Trash || Joke #1
+                            </p>
+                            <p class="video-author">
+                                Pratyush Kamal
+                            </p>
+                            <p class="video-stats">
+                                565 views &#183; 2 years ago
+                            </p>
+                        </div>
                     </div>
                 </div>
-            </div>
     
-            <div class="video-preview">
-                <div class="thumbnail-row">
-                    <img class="thumbnail" src="thumbnails/zuffy.jpeg">
-                    <div class="video-time">14:44</div>
-                </div>
-    
-                <div class="video-info-grid">
-                    <div class="channel-pfp">
-                        <img class="pfp" src="thumbnails/zuffyC.jpeg">
+                <div class="video-preview">
+                    <div class="thumbnail-row">
+                        <img class="thumbnail" src="thumbnails/notyourtype.jpeg">
+                        <div class="video-time">8:02</div>
                     </div>
-    
-                    <div class="video-info">
-                        <p class="video-title">
-                            Learning to Draw with No Experience
-                        </p>
-                        <p class="video-author">
-                            ZUFFY
-                        </p>
-                        <p class="video-stats">
-                            1.2M views &#183; 1 year ago
-                        </p>
-                    </div>
-                </div>
-            </div>
-    
-            <div class="video-preview">
-                <div class="thumbnail-row">
-                    <img class="thumbnail" src="thumbnails/jawed.jpeg">
-                    <div class="video-time">0:19</div>
-                </div>
-    
-                <div class="video-info-grid">
-                    <div class="channel-pfp">
-                        <img class="pfp" src="thumbnails/jawedC.jpeg">
-                    </div>
-    
-                    <div class="video-info">
-                        <p class="video-title">
-                            Me at the zoo
-                        </p>
-                        <p class="video-author">
-                            jawed
-                        </p>
-                        <p class="video-stats">
-                            251M views &#183; 17 years ago
-                        </p>
+        
+                    <div class="video-info-grid">
+                        <div class="channel-pfp">
+                            <img class="pfp" src="thumbnails/notyourtypeC.jpeg">
+                        </div>
+        
+                        <div class="video-info">
+                            <p class="video-title">
+                                Indian Tv Shows | Ft. Crime Petrol
+                            </p>
+                            <p class="video-author">
+                                NOT YOUR TYPE
+                            </p>
+                            <p class="video-stats">
+                                6.3M views &#183; 6 months ago
+                            </p>
+                        </div>
                     </div>
                 </div>
-            </div>
-    
-            <div class="video-preview">
-                <div class="thumbnail-row">
-                    <img class="thumbnail" src="thumbnails/imaginedragons.jpeg">
-                    <div class="video-time">3:43</div>
-                </div>
-    
-                <div class="video-info-grid">
-                    <div class="channel-pfp">
-                        <img class="pfp" src="thumbnails/imaginedragonsC.jpeg">
+        
+                <div class="video-preview">
+                    <div class="thumbnail-row">
+                        <img class="thumbnail" src="thumbnails/zuffy.jpeg">
+                        <div class="video-time">14:44</div>
                     </div>
-    
-                    <div class="video-info">
-                        <p class="video-title">
-                            Imagine Dragons - Birds (Animated Video)
-                        </p>
-                        <p class="video-author">
-                            Imagine Dragons
-                        </p>
-                        <p class="video-stats">
-                            234M views &#183; 3 years ago
-                        </p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="video-preview">
-                <div class="thumbnail-row">
-                    <img class="thumbnail" src="thumbnails/supersimpledev.jpeg">
-                    <div class="video-time">6:31:24</div>
-                </div>
-    
-                <div class="video-info-grid">
-                    <div class="channel-pfp">
-                        <img class="pfp" src="thumbnails/supersimpledevC.jpeg">
-                    </div>
-    
-                    <div class="video-info">
-                        <p class="video-title">
-                            HTML & CSS Full Course - Beginner to Pro (2022)
-                        </p>
-                        <p class="video-author">
-                            SuperSimpleDev
-                        </p>
-                        <p class="video-stats">
-                            2.8M views &#183; 10 months ago
-                        </p>
+        
+                    <div class="video-info-grid">
+                        <div class="channel-pfp">
+                            <img class="pfp" src="thumbnails/zuffyC.jpeg">
+                        </div>
+        
+                        <div class="video-info">
+                            <p class="video-title">
+                                Learning to Draw with No Experience
+                            </p>
+                            <p class="video-author">
+                                ZUFFY
+                            </p>
+                            <p class="video-stats">
+                                1.2M views &#183; 1 year ago
+                            </p>
+                        </div>
                     </div>
                 </div>
-            </div>
-        </div>
+        
+                <div class="video-preview">
+                    <div class="thumbnail-row">
+                        <img class="thumbnail" src="thumbnails/jawed.jpeg">
+                        <div class="video-time">0:19</div>
+                    </div>
+        
+                    <div class="video-info-grid">
+                        <div class="channel-pfp">
+                            <img class="pfp" src="thumbnails/jawedC.jpeg">
+                        </div>
+        
+                        <div class="video-info">
+                            <p class="video-title">
+                                Me at the zoo
+                            </p>
+                            <p class="video-author">
+                                jawed
+                            </p>
+                            <p class="video-stats">
+                                251M views &#183; 17 years ago
+                            </p>
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="video-preview">
+                    <div class="thumbnail-row">
+                        <img class="thumbnail" src="thumbnails/imaginedragons.jpeg">
+                        <div class="video-time">3:43</div>
+                    </div>
+        
+                    <div class="video-info-grid">
+                        <div class="channel-pfp">
+                            <img class="pfp" src="thumbnails/imaginedragonsC.jpeg">
+                        </div>
+        
+                        <div class="video-info">
+                            <p class="video-title">
+                                Imagine Dragons - Birds (Animated Video)
+                            </p>
+                            <p class="video-author">
+                                Imagine Dragons
+                            </p>
+                            <p class="video-stats">
+                                234M views &#183; 3 years ago
+                            </p>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="video-preview">
+                    <div class="thumbnail-row">
+                        <img class="thumbnail" src="thumbnails/supersimpledev.jpeg">
+                        <div class="video-time">6:31:24</div>
+                    </div>
+        
+                    <div class="video-info-grid">
+                        <div class="channel-pfp">
+                            <img class="pfp" src="thumbnails/supersimpledevC.jpeg">
+                        </div>
+        
+                        <div class="video-info">
+                            <p class="video-title">
+                                HTML & CSS Full Course - Beginner to Pro (2022)
+                            </p>
+                            <p class="video-author">
+                                SuperSimpleDev
+                            </p>
+                            <p class="video-stats">
+                                2.8M views &#183; 10 months ago
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
     </body>
 </html>
